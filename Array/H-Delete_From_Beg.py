@@ -1,19 +1,19 @@
 
 array=[]
-n=int(input("Enter the no of element you want to enter"))
 
 for i in range(0,100):
     array.append(0)
 
+n=int(input("Enter the no of element you want to enter"))
 print("Enter the Elements : ")
 
 for i in range(0,n):
     element=int(input())
     array[i]=element
 
-print("Elemnt Deleted From beginning")
+print("Element Deleted From beginning")
 for i in range(0,n):
-     array[i+1]=array[i]
+     array[i]=array[i+1]
 
 n=n-1
 
