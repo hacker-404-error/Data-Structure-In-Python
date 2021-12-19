@@ -30,7 +30,7 @@ class Linked_List:
 if __name__=='__main__':
     system("cls")
     Ll=Linked_List()
-    n=int(input("Enter the no of element you want to enter"))
+    n=int(input("Enter the no of element you want to enter: "))
     while(n!=0):
         element=int(input("Enter Data: "))
         Ll.insert(element)
