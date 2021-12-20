@@ -25,12 +25,13 @@
  | C.    | [Insertion_At_Beginning]()       |
  | D.    | [Insertion_At_Position]()        |
  | E.    | [Delete_From_End]()              |
- | F.    | []()                             |
- | G.    | []()                             |
+ | F.    | [Delete_From_Beginning]()        |
+ | G.    | [Delete_From_Position]()         |
  | H.    | []()                             |
  | I.    | []()                             |
  | J.    | []()                             |
  | K.    | []()                             |
  | L.    | []()                             |
  | M.    | []()                             |
+ 
  
