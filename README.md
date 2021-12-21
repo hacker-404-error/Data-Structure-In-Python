@@ -33,8 +33,8 @@
  | G.    | [Delete_From_Position](https://github.com/hacker-404-error/Data-Structure-In-Python/blob/master/Linked_List/G-Delete_From_Position.py)                 |
  | H.    | [Implementation_Of_Doubly_LinkedList]()                                                                                                                |
  | I.    | [Insertion_At_End_Of_DLL]()                                                                                                                            |
- | J.    | []()                                                                                                                                                   |
- | K.    | []()                                                                                                                                                   |
+ | J.    | [Insertion_At_Beginning_Of_DLL]()                                                                                                                      |
+ | K.    | [Insertion_At_Position_Of_DLL]()                                                                                                                       |
  | L.    | []()                                                                                                                                                   |
  | M.    | []()                                                                                                                                                   |
  
