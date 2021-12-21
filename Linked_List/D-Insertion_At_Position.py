@@ -38,7 +38,7 @@ class linked_list():
         pos=int(input("Enter the position for inserting Data: "))
         if(self.head==None):
             if(pos==1):
-                element=int(input("Enter Data"))
+                element=int(input("Enter Data: "))
                 self.head=node(element)
                 return 1
             else:
