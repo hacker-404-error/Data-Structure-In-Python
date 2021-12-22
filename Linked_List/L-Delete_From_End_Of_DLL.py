@@ -24,16 +24,33 @@ class Doubly_Linked_List:
             current=None
 
     def display(self):
-        current=self.head
-        while(current!=None):
-            print(current.data, end="->")
-            current=current.next
+        if(self.head==None):
+            print("NO ELEMENT IN LINKED LIST !!")
+        else:
+            current=self.head
+            while(current!=None):
+                print(current.data, end="->")
+                current=current.next
     def reverse(self):
         current=self.tail
         while(current!=None):
             print(current.data, end="->")
             current=current.pre
 
+    def Delte_From_End(self):
+        if(self.head==None):
+            print("No Element To Delete!!")
+        else:
+            if(self.head==self.tail):
+                self.head=None
+                self.tail=None
+            else:
+                current=self.tail
+                self.tail=self.tail.pre
+                self.tail.next=None
+                current.next=None
+                current.pre=None
+                current.data=None
 
 if __name__ == "__main__":
     
@@ -47,7 +64,14 @@ if __name__ == "__main__":
     print("Element from Head to Tail: ")
     dll.display()
     print(end="\n")
-    print("Element From Tail to Head: ")
-    dll.reverse()
+    x=input("Do you want to delete From End: ")
+    while(x=='y' or x=='Y'):
+        dll.Delte_From_End()
+        dll.display()
+        print(end="\n")
+        x=input("Want to Delete Again? : ")
+        
+    print("Updated list is : ")
+    dll.display()
 
 
