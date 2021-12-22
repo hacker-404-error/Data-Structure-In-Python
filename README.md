@@ -35,7 +35,7 @@
  | I     | [Insertion_At_End_Of_DLL            ]()                                                                                                                       |
  | J     | [Insertion_At_Beginning_Of_DLL      ]()                                                                                                                       |
  | K     | [Insertion_At_Position_Of_DLL       ]()                                                                                                                       |
- | L     | []()                                                                                                                                                          |
- | M     | []()                                                                                                                                                          |
- 
+ | L     | [Delete_From_End_Of_DLL             ]()                                                                                                                       |
+ | M     | [Delete_From_Beginning_Of_DLL       ]()                                                                                                                       |
+ | N     | [Delete_From_Position_Of_DLL        ]()                                                                                                                       |
  
