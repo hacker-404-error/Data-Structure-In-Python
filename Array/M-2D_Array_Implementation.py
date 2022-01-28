@@ -11,6 +11,11 @@ for i in range(row):
 # Printing 2D Array
 for i in range(row):
     for j in range(col):
+        array[i][j]= int(input())
+    print(end="\n")
+
+for i in range(row):
+    for j in range(col):
         print(array[i][j],end=" ")
     print(end="\n")
 

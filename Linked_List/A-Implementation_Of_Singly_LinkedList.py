@@ -2,10 +2,10 @@
 from os import system
 
 class node:
-
     def __init__(self,data):
         self.data=data
         self.next=None
+
 
 class Linked_List:
 
